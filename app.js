@@ -5,10 +5,7 @@
       e.preventDefault();
 
       var urlAPartager = this.getAttribute("data-url");
-      var url =
-        "https://twitter.com/intent/tweet?text=" +
-        encodeURIComponent("titre du site");
-      "&url=" + encodeURIComponent(urlAPartager);
+          url = "https://twitter.com/intent/tweet?text=" + encodeURIComponent("titre du site") + "&url=" + encodeURIComponent(urlAPartager);
 
       window.open(
         url,
